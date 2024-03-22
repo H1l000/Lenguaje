@@ -1,0 +1,48 @@
+footer {
+    background-color: #333;
+    color: #5570ea;
+    padding: 5px;
+    text-align: center;
+    margin-top: 35vh; /* Simplemente 35 porque a partir de 30 ya se queda siempre abajo */
+  }
+
+.elBoton{
+    width: 100%;
+    background: #1899f5;
+    padding: 15px;
+    color:whitesmoke;
+    margin-top: 18px;
+    font-size: 15px;
+    cursor: pointer; /* Para cambiar el cursor al pasar */
+}
+
+main {
+    margin: 7px 0px;
+    width: 100%;
+    color: #fff;
+}
+
+#Resultados1 {
+    width: 75px;
+    background: #e93d13;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+#Resultados2 {
+
+    width: 75px;
+    background: #1316e0;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}

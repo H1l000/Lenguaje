@@ -1,0 +1,3 @@
+#ARCHIVOS QUE NO QUIERO QUE SE SUBAN
+.idea/
+.vscode/

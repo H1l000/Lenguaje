@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Cosas importantes y del principio */
+h1{
+   
+    color: #ff00ff;
+}
+
+header{
+    text-align: center;
+    background-color: #100710;
+}
+
+ul {
+    float: relative;
+    margin-top: 25px;
+    }
+    li {
+        float: relative;
+        margin-right: 10px;
+    }
+
+#nav ul li {
+    display: inline-block;
+}    
+
+p{
+    text-align: center;
+}
+
+/* Body y otras cosas  */
+body{
+    font-family: sans-serif;   
+   background: linear-gradient(180deg, 
+   rgba(9,9,121,1) 40%,
+    rgb(13, 147, 174) 100%);
+   min-height: 100vh; /* Con esto el fondo no se repite */}
+
+cite{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}  
+
+.Suscripcion {
+    width: 280px;
+    background: #ff00ff;
+    padding:50px;
+    margin: auto; /* ---> Para tenerlo siempre centrado */
+    margin-top: 255px;
+    margin-bottom: 50px;
+    border-radius: 35px;
+    font-family: 'calibri';
+    color:aliceblue;
+    box-shadow: 7px 13px 37px #000;
+} 
+
+
+
+.DelInput{
+    width: 91%;
+    background: #092c64;
+    padding: 12px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(32, 235, 49); /* PARA EL BORDE */
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.Boton{
+    width: 100%;
+    background: #092c64;
+    padding: 12px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(200, 255, 20); /* PARA EL BORDE */
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #5570ea;
+    padding: 5px;
+    text-align: center;
+    margin-top: 35vh; /* Simplemente 35 porque a partir de 30 ya se queda siempre abajo */
+  }

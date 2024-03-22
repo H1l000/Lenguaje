@@ -1,0 +1,13 @@
+#bd{
+    background: linear-gradient(to right, rgb(0, 255, 179), rgb(52, 4, 124));
+}
+.resultado {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 20px;
+    padding: 30px;
+    background: rgb(55, 82, 236);
+    border-radius: 10px;
+    box-shadow: 10px 2px;
+    margin-left: 150px;
+}
