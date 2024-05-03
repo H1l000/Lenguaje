@@ -1,6 +1,5 @@
 function dados() {
-    let contadorRondas = 0; let dd1 = 0; let dd2 = 0; let num = 0; let cont11 = -1; let cont22 = -1;
-    let cont33 = -1; let cont44 = -1; let cont55 = -1; let cont66 = -1;
+    let contadorRondas = 0; let dd1 = 0; let dd2 = 0; let num = 0; 
 
     let d1 = parseFloat(document.getElementById('player1').value);
     dd1 = 12 - d1;
